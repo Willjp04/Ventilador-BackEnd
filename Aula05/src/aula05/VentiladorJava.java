@@ -23,6 +23,19 @@ public class VentiladorJava {
         System.out.println("Tamanho " + this.Tamanho);
         System.out.println("Velocidade " + this.velocidade );
     }
+    void ligar(){
+        if(this.Ligado == true)
+        System.out.println("O ventilador está ligado");
+        else{
+            System.out.println("ERRO! O ventilador está desligado");
+        }
+    }
+    void ligado(){
+        this.Ligado = true;
+    }
+    void desligado(){
+        this.Ligado = false;
+    }
        
 
 }

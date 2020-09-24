@@ -19,6 +19,8 @@ public class Aula05 {
       ven.cor = "Branco";
       ven.marca = "Arno";
       ven.Tamanho = "90 centrimetos";
+      ven.ligar();
+      ven.ligado();
       ven.velocidade = 2;
       ven.status();
     }
