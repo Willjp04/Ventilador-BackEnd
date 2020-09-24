@@ -10,5 +10,19 @@ package aula05;
  * @author PORTOMASTER
  */
 public class VentiladorJava {
+    public String marca;
+    public String Tamanho;
+    public String cor;
+    public int tamanho;
+    public int velocidade;
+    public boolean Ligado;
     
+    void status(){
+        System.out.println("Cor " + this.cor);
+        System.out.println("Arno " + this.marca);
+        System.out.println("Tamanho " + this.Tamanho);
+        System.out.println("Velocidade " + this.velocidade );
+    }
+       
+
 }

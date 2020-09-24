@@ -15,7 +15,12 @@ public class Aula05 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+      VentiladorJava ven = new VentiladorJava();
+      ven.cor = "Branco";
+      ven.marca = "Arno";
+      ven.Tamanho = "90 centrimetos";
+      ven.velocidade = 2;
+      ven.status();
     }
     
 }
